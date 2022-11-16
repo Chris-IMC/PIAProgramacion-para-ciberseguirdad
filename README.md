@@ -15,7 +15,7 @@ El modulo email.mime es parte de la API de correo electrónico heredada ( Compat
 
 Por lo general, obtiene una estructura de objeto de mensaje pasando un archivo o texto a un analizador, que analiza el texto y devuelve el objeto de mensaje raíz.
 
-# Extraer texto y metadata de pfd usando PyPDF2
+# Extraer texto y metadata de pdf usando PyPDF2
 PyPDF2 es una biblioteca de PDF de Python puro de código abierto y gratuita capaz de dividir, fusionar, recortar y transformar las páginas de los archivos PDF. También puede agregar datos personalizados, opciones de visualización y contraseñas a archivos PDF. PyPDF2 también puede recuperar texto y metadatos de archivos PDF.
 
 # Valor Hash
