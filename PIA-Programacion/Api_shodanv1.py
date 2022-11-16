@@ -3,7 +3,7 @@ from shodan import Shodan
 api = Shodan('hSgHyoWTPKKxZsNHgEEM4mHGG2joLXIV')
 
 
-direccion_ip = input("Inngrese la direccion IP: ")
+direccion_ip = input("Ingrese la direccion IP: ")
 host=api.host(direccion_ip)
 
 file=open('BusquedaShodan.txt', 'a+', encoding="utf-8")
