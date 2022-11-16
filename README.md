@@ -17,3 +17,17 @@ Por lo general, obtiene una estructura de objeto de mensaje pasando un archivo o
 
 # Extraer texto y metadata de pfd usando PyPDF2
 PyPDF2 es una biblioteca de PDF de Python puro de código abierto y gratuita capaz de dividir, fusionar, recortar y transformar las páginas de los archivos PDF. También puede agregar datos personalizados, opciones de visualización y contraseñas a archivos PDF. PyPDF2 también puede recuperar texto y metadatos de archivos PDF.
+
+# Valor Hash
+Se denomina así al resultado de aplicar un algoritmo criptográfico sobre un mensaje o archivo, el cuál tendrá como resultado una cadena alfanumérica única. 
+
+En los casos en que un mensaje (cadena alfanumérica) o un archivo sufren una modificación, por más mínima que sea, su valor hash cambiará completamente. 
+Existen diversas funciones o algoritmos criptográficos que nos permiten obtener el valor hash: 
+
+MD5 - Hash de salida de 128 bits 
+
+SHA-256 - Hash de salida de 256 bits 
+
+SHA-512 - Hash de salida de 512 bits 
+
+En este trabajo se uso el Hash de salida de 512 bits 
