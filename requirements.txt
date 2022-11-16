@@ -1,0 +1,9 @@
+Modulos necesarios
+
+1: Shodan
+2: email
+3: smtplib
+4: ssl
+5:python-nmap
+6: PyPDF2
+7:hashlib
